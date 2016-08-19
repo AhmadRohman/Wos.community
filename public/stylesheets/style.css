@@ -1,0 +1,138 @@
+div.search{
+  height: 129px;
+  display: none;
+}
+
+div.search, p.flip{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background: white;
+  border-bottom: 1px solid #0073b7;
+}
+
+div.pesan{
+  height: 450px;
+  display: none;
+}
+
+div.pesan, p.flipp{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background: white;
+  border-bottom: 1px solid #0073b7;
+}
+/*Glyp color*/
+div.iconcolor {
+  color: #007bb6;
+}
+
+.in{
+  color:#000;
+  margin-top: 0.5pc;
+  margin-bottom: 0.5pc;
+  border-radius: 5px;
+  border-bottom-color: #0063dc;
+  border-left-color: #FFFFFF;
+  border-right-color: #FFFFFF;
+  border-top-color: #FFFFFF;
+}
+
+.in:hover{
+  color:#000;
+  /*margin-top: 0.5pc;*/
+  /*margin-bottom: 0.5pc;*/
+  /*border-radius: 5px;*/
+  border-bottom-color: #ff5500;
+  border-left-color: #FFFFFF;
+  border-right-color: #FFFFFF;
+  border-top-color: #FFFFFF;
+}
+.in:focus{
+  color:#000;
+  /*margin-top: 0.5pc;*/
+  /*margin-bottom: 0.5pc;*/
+  /*border-radius: 5px;*/
+  border-bottom-color: #ff5500;
+  border-left-color: #FFFFFF;
+  border-right-color: #FFFFFF;
+  border-top-color: #FFFFFF;
+}
+
+.sel{
+  border-bottom-color: #0063dc;
+  border-left-color: #FFFFFF;
+  border-right-color: #FFFFFF;
+  border-top-color: #FFFFFF;
+  margin-top: 0.5pc;
+  margin-bottom: 0.5pc;
+}
+
+.sel:hover{
+  /*margin-top: 0.5pc;*/
+  /*margin-bottom: 0.5pc;*/
+  border-bottom-color: #ff5500;
+  border-left-color: #FFFFFF;
+  border-right-color: #FFFFFF;
+  border-top-color: #FFFFFF;
+}
+
+.sel:focus{
+  /*margin-top: 0.5pc;*/
+  /*margin-bottom: 0.5pc;*/
+  border-bottom-color: #d33724;
+  border-left-color: #FFFFFF;
+  border-right-color: #FFFFFF;
+  border-top-color: #FFFFFF;
+}
+
+.input-gr{
+  margin-top: 1pc;
+  margin-bottom: 1pc;
+}
+.input-gr .sp1{
+  border-bottom-color: #0063dc;
+  border-left-color: #0063dc;
+  border-right-color: #FFFFFF;
+  border-top-color: #0063dc;
+}
+.input-gr .sp2{
+  border-bottom-color: #0063dc;
+  border-left-color: #FFFFFF;
+  border-right-color: #0063dc;
+  border-top-color: #0063dc;
+}
+
+/* LABEL */
+.input-group .span{
+  color:#000;
+  margin-top: 0.5pc;
+  margin-bottom: 0.5pc;
+  border-color: #FFFFFF;
+}
+.input-group .span:hover{
+  color:#000;
+  margin-top: 0.5pc;
+  margin-bottom: 0.5pc;
+  border-color: #FFFFFF;
+}
+/*End Label*/
+button[type='submit']{
+  width: 30%;
+  margin-bottom: 15px;
+  float: right;
+  margin-top: 5px;
+}
+button[type='reset']{
+  width: 30%;
+  float: right;
+  margin-right: 5pc;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.rd{
+  margin-top: 0.5pc;
+  margin-left: -12pc;
+}
