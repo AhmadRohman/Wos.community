@@ -57,5 +57,6 @@ woscom.use(function(err, req, res, next) {
   });
 });
 
-
+woscom.listen(8888);
+console.log("DDL")
 module.exports = woscom;
