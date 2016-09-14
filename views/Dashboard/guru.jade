@@ -1,0 +1,114 @@
+//
+   Created by ar on 10/08/16.
+div.pesan
+   form.form-horizontal(action="#" method="POST")
+      h4 Choose file dalam format .xlsx jika data yang akan di simpan lebih dri
+         | satu
+      .form-group
+         .col-sm-6
+            .input-group
+               span.span#basic-addon1.input-group-addon Nip &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+               input.form-control.in(type='text', name="nip" aria-describedby='basic-addon1' autofocus)
+         .col-sm-8
+            .input-group
+               span.span#basic-addon1.input-group-addon Nama :
+               input.form-control.in(type='text', name="nama" aria-describedby='basic-addon1')
+         .col-sm-6
+            .input-group
+               span.span#basic-addon1.input-group-addon Password :
+               input.form-control.in(type='password', name="password" aria-describedby='basic-addon1')
+         .col-sm-10
+            .input-group
+               span.span#basic-addon1.input-group-addon Agama :
+               .btn-group.rd(data-toggle='buttons')
+                  label.btn.btn-primary.active
+                     input(type='radio', name='agama', autocomplete='off', checked='')
+                     |  Islam
+                  label.btn.btn-primary
+                     input(type='radio', name='agama', autocomplete='off')
+                     |  Islam
+                  label.btn.btn-primary
+                     input(type='radio', name='agama', autocomplete='off')
+                     |  Islam
+                  label.btn.btn-primary
+                     input(type='radio', name='agama', autocomplete='off')
+                     |  Islam
+                  label.btn.btn-primary
+                     input(type='radio', name='agama', autocomplete='off')
+                     |  Islam
+         .col-sm-8
+            .input-group
+               span.span#basic-addon1.input-group-addon Alamat :
+               input.form-control.in(type='text',name="alamat" aria-describedby='basic-addon2')
+
+         .col-sm-5
+            .input-group
+               span.span#basic-addon1.input-group-addon Pelajaran Yang Di Ampu :
+               select.form-control.sel(type='text', name="kdmp")
+                  option(value="0") Klik untuk Pilih
+                  option(value="0") Bahasa Indonesia
+                  option(value="1") Bahasa Inggris
+                  option(value="2") Matematika
+                  option(value="3") Fisika
+                  option(value="4") Biologi
+                  option(value="5") Kimia
+         .col-sm-3
+            .input-group
+               span.span#basic-addon1.input-group-addon Wali Di :
+               select.form-control.sel(type='text', name="wali_kls")
+                  option(value="0") Pilih kelas
+                  option(value="0") X1
+                  option(value="1") X2
+                  option(value="2") X3
+                  option(value="3") XI IPA 1
+                  option(value="4") XI IPA 2
+                  option(value="5") XI IPA 3
+                  option(value="3") XI IPS 1
+                  option(value="4") XI IPS 2
+                  option(value="5") XI IPS 3
+                  option(value="3") XII IPA 1
+                  option(value="4") XII IPA 2
+                  option(value="5") XII IPA 3
+                  option(value="3") XII IPS 1
+                  option(value="4") XII IPS 2
+                  option(value="5") XII IPS 3
+         .col-sm-3
+            .input-group
+               span.span#basic-addon1.input-group-addon Ruang Kelas :
+               select.form-control.sel(type='text', name="kdrk")
+                  option(value="0") Klik untuk Pilih
+                  option(value="0") X1
+                  option(value="1") X2
+                  option(value="2") X3
+                  option(value="3") XI IPA 1
+                  option(value="4") XI IPA 2
+                  option(value="5") XI IPA 3
+                  option(value="3") XI IPS 1
+                  option(value="4") XI IPS 2
+                  option(value="5") XI IPS 3
+                  option(value="3") XII IPA 1
+                  option(value="4") XII IPA 2
+                  option(value="5") XII IPA 3
+                  option(value="3") XII IPS 1
+                  option(value="4") XII IPS 2
+                  option(value="5") XII IPS 3
+         .col-xs-8
+            .input-group
+               span.span#basic-addon1.input-group-addon Email &nbsp;&nbsp; :
+               input.form-control.in(type='text', placeholder="xxx@example.com", aria-describedby='basic-addon2')
+         .col-sm-12
+            button.btn.btn-primary(type="submit") Simpan
+            button.btn.btn-danger(type="reset") Reset
+div.flip.glyphicon.glyphicon-pencil.iconcolor: a(href="#") &nbsp;Tambah Guru
+
+br
+div.search
+      div.input-group
+         h5 Dunia adalah penjara bagi ORANG yang BERIMAN !!
+         form(action="#" method="POST")
+         .col-lg-6
+            .input-group
+               input.form-control(type='text', placeholder='Search for...')
+               span.input-group-btn
+                  button.btn.btn-default(type='button') Go!
+div.flipp.glyphicon.glyphicon-search.iconcolor: a(href="#") &nbsp;Cari Guru

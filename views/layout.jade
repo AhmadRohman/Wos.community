@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    link(href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet")
+    meta(content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport")
+    // Bootstarap
+    link(rel="stylesheet" href="/bootstrap/css/bootstrap.min.css")
+
+    // Theme style
+    link(rel="stylesheet" href="/dist/css/AdminLTE.min.css")
+    link(rel="stylesheet" href="/dist/css/skins/_all-skins.min.css")
+    script(src="/plugins/jQuery/jQuery-2.1.4.min.js")
+    script(src="/bootstrap/js/bootstrap.min.js")
+    link(rel="stylesheet" href="/dist/css/summernote.css")
+    link(rel="styleSheet" href="/stylesheets/style.css")
+    script(src="/dist/js/summernote.js")
+    script(type="text/javascript").
+      $("document").ready(function(){
+        $(".flip").click(function(){
+          $(".pesan").slideToggle("slow");
+        });
+      });
+
+      $("document").ready(function () {
+        $(".flipp").click(function () {
+          $(".search").slideToggle("slow");
+        });
+      });
+
+  body(class="hold-transition skin-blue sidebar-mini")
+
+    block content
